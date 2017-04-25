@@ -5,7 +5,6 @@
   "scripts": {
     "build": "tsc -p resources/angular/src/",
     "build:watch": "tsc -p resources/angular/src/ -w",
-    "serve": "lite-server -c=bs-config.json",
     "prestart": "npm run build",
     "lint": "tslint ./resources/angular/src/**/*.ts -t verbose"
   },
